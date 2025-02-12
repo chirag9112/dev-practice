@@ -7,7 +7,7 @@ resource "aws_instance" "website" {
   instance_type = "t2.micro"              
   key_name      = "chirag_rsa"      
 
-  security_groups = [aws_security_group.my-sg.name]  
+  security_groups = [aws_security_group.sg.name]  
 
   user_data = <<-EOF
     #!/bin/bash
@@ -23,8 +23,8 @@ resource "aws_instance" "website" {
   }
 }
 
-resource "aws_security_group" "my-sg" {
-  name        = "my-sg"
+resource "aws_security_group" "sg" {
+  name        = "sg"
   description = "Allow HTTP and SSH traffic"
 
   ingress {
