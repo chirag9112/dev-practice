@@ -16,6 +16,6 @@ module "my_instance"{
     instance_type = var.instance_type
     key_name = var.key_name
     sgid = var.sgid
-    subnet_id = module.my_vpc.aws_subnet.my_subnet.id
+    subnet_id = module.my_vpc.my_subnet.id
 
 }
