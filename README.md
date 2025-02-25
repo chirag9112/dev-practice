@@ -64,10 +64,12 @@ Providers are a logical abstraction of an upstream API. They are responsible for
 
 ### Windows
 
-## Download Terraform
+[Download Terraform](https://www.terraform.io/downloads.html)
 
-**Extract the executable to a directory (E.g. c:\terraform)
-Go to the Environment variable and update the system variables in the **PATH
+```bash
+Extract the executable to a directory (e.g., C:\terraform)
+Go to Environment Variables → Add the path to the PATH variable
+
 
 ## Ubuntu/Debian
 
