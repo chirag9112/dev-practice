@@ -19,3 +19,18 @@ GitHub is a Git repository hosting service that provides a web-based graphical i
 * Working directory - Modify files in your working directory
 * Staging area (Index) - Stage the files and add snapshots of them to your staging area
 * Git directory (Repository) - Perform a commit that stores the snapshots permanently to your   Git directory. Checkout any existing version, make changes, stage them and commit.
+# Commands in Git
+## Create Repositories
+* git init
+## Make Changes
+* add
+* commit
+* status
+## Parallel Development
+* branch
+* merge
+* rebase
+## Sync Repositories
+* push
+* pull
+* add origin
