@@ -1,7 +1,7 @@
 # Git
-    Git is a DevOps tool used for source code management. It is one of the most prominent version control systems (VCS) today that is widely used to handle small and large projects efficiently. It helps in tracking changes in source code, enabling different people to collaborate on different parts of the same program.
+Git is a DevOps tool used for source code management. It is one of the most prominent version control systems (VCS) today that is widely used to handle small and large projects efficiently. It helps in tracking changes in source code, enabling different people to collaborate on different parts of the same program.
 # What Is GitHub?
-    GitHub is a Git repository hosting service that provides a web-based graphical interface (GUI). It helps every team member work together on a project from anywhere, making it easy to collaborate. 
+GitHub is a Git repository hosting service that provides a web-based graphical interface (GUI). It helps every team member work together on a project from anywhere, making it easy to collaborate. 
 * It is used to tracking changes in the source code
 * The distributed version control tool is used for source code management
 * It allows multiple developers to work together
