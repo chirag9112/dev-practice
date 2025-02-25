@@ -73,22 +73,27 @@ Go to Environment Variables → Add the path to the PATH variable
 
 ## Ubuntu/Debian
 
+```bash
 wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
 sudo apt update && sudo apt install terraform
 
 ## Centos/RHEL
-
+```bash
 sudo yum install -y yum-utils
 sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
 sudo yum -y install terraform
 
 * Check version
+
+```bash
 terraform version
 
 Resources are the most important element in the Terraform language. Each resource block describes one or more infrastructure objects, such as virtual networks, compute instances, or higher-level components such as DNS records. Terraform configuration files are written in HCL to deploy infrastructure resources, these files have .tf extensions
 
 ## Let's get started with Terraform
+
+```bash
 To use AWS provider and create AWS infrastructure we need to configure AWS CLI
 
 * Install AWS CLI
@@ -98,9 +103,15 @@ To use AWS provider and create AWS infrastructure we need to configure AWS CLI
 ## Follow this article to configure AWS CLI
 
 * Create any folder
+
+```bash
 mkdir terraform-project
+
 * Change into this directory
+
+```bash
 cd terraform-project
+
 * Create providers.tf file to define provider
 
 ## To specify a specific version of the provider, use required_providers block under terraform.
