@@ -66,8 +66,8 @@ Providers are a logical abstraction of an upstream API. They are responsible for
 
 ## Download Terraform
 
-Extract the executable to a directory (E.g. c:\terraform)
-Go to the Environment variable and update the system variables in the PATH
+**Extract the executable to a directory (E.g. c:\terraform)
+Go to the Environment variable and update the system variables in the **PATH
 
 ## Ubuntu/Debian
 
