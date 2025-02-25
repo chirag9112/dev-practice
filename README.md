@@ -65,6 +65,12 @@ Providers are a logical abstraction of an upstream API. They are responsible for
 ### Windows
 
 ## Download Terraform
+# 📥 Install Terraform
+
+### ✅ **Windows**  
+[Download Terraform](https://www.terraform.io/downloads.html)
+
+```bash
 Extract the executable to a directory (e.g., C:\terraform)
 Go to Environment Variables → Add the path to the PATH variable
 
